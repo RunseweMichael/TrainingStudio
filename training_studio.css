@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 .video{
@@ -15,21 +16,11 @@
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
 .home{
     position: relative;
     background-color: rgba(35, 45, 57, 0.8);
     height: 100vh;
 }
-
 
 
 nav{
@@ -119,6 +110,17 @@ nav{
     cursor: pointer;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .gym{
     color:#ed563b;
 }
@@ -165,12 +167,13 @@ h3{
 
 
 
+
+
 /* Second Section */
 
 .choice{
     font-size: 24px;
     font-weight: 800;
-    color: black;
     letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -195,6 +198,9 @@ h3{
     line-height: 1.7;
 }
 
+
+
+
 .second_section{
     display: flex;
     justify-content: center;
@@ -218,6 +224,7 @@ h3{
     margin-bottom: 65px;
 }
 
+
 .a_discover{
     color: #ed563b;
     text-decoration: none;
@@ -225,6 +232,7 @@ h3{
     margin-top: 15px;
     font-size: 13px;
     font-weight: 500;
+
 }
 
 h5{
@@ -285,13 +293,6 @@ h5{
     align-items: start;
     margin-bottom: 50px;
     margin-top: 70px;
-}
-
-.section_4_head{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .left4{
@@ -394,9 +395,12 @@ h5{
 
 
 
+
+
+
 /* Form section */
 .FORM_SECTION{
-    background-image: url(/schedule-bg.jpg);
+    background-image: url(schedule-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -455,7 +459,6 @@ table, tr, td{
     border-collapse: collapse;
     padding: 40px 60px;
     border: 1px solid #fff;
-    border-collapse: collapse;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
@@ -463,6 +466,12 @@ table, tr, td{
 table{
     margin-bottom: 80px;
 }
+
+
+
+
+
+
 
 
 
@@ -531,6 +540,12 @@ table{
 
 
 
+
+
+
+
+
+
 /* Last section */
 .last_section{
     display: flex;
@@ -541,7 +556,7 @@ table{
 }
 
 .fform{
-    background-image: url(/contact-bg.jpg);
+    background-image: url(contact-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -798,8 +813,11 @@ nav.sticky .training {
     color: black;
 }
 
-nav.sticky .nav_anchor,
-nav.sticky .span_home {
+nav.sticky .nav_anchor {
+    color: black;
+}
+
+nav.sticky .span_home{
     color: black;
 }
 
@@ -807,7 +825,4 @@ nav.sticky .nav_anchor:hover{
     color: #ed563b;
 }
 
-nav.sticky .span_home{
-    color: #ed563b;;
-}
 

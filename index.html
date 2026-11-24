@@ -4,39 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Training Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="training_studio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <script src="https://kit.fontawesome.com/1097f2c020.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="navigation">
         
         <div class="video">
-            <video class="vid" src="/gym-video.mp4" muted loop autoplay></video>
+            <video class="vid" src="./gym-video.mp4" muted loop autoplay></video>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <div class="home">  
             <nav>
                 <div class="nav-left">
                     <h1 class="training">TRAINING <span class="studio">STUDIO</span></h1>
                 </div>
+                
                 <div class="nav-right">
                     <ul>
                         <li> <a href="" class="span_home">HOME</a></li>
@@ -66,10 +51,10 @@
         <p class="class_para">Each of these programs have been carefully selected to match your needs <br> and provide desireable results</p>
     </div>
 
-    <div id="about" class="second_section">
+    <div class="second_section">
         <div class="leftsec">
             <div class="cont">
-                <div class="1st_img">
+                <div class="st_img">
                     <img src="/features-first-icon.png" alt="">
                 </div>
                 <div class="1st_txt">
@@ -78,6 +63,7 @@
                     <a class="a_discover" href="">DISCOVER MORE</a>
                 </div>
             </div>
+            
             <div class="cont">
                 <div class="1st_img">
                     <img src="/features-first-icon.png" alt="">
@@ -137,9 +123,6 @@
     </div>
 
 
-
-
-
     <div class="third_section">
         <h4 class="h_4"> DON'T <span class="span_h4">THINK,</span> BEGIN <span class="span_h4">TODAY</span>!</h4>
         <p class="p_ut">The training studio is designed to give everyone the tools they need to reach their dream fitness goals. We can't wait to have you!.</p>
@@ -165,6 +148,7 @@
                         <p id="first_p" class="sec_text">First Training Class</p>
                     </div>
                 </div>
+
                 <div onclick="secondtraining()" class="left_a">
                     <div class="a_img">
                         <img src="/tabs-first-icon.png" alt="">
@@ -173,6 +157,7 @@
                         <p id="second_p" class="sec_text">Second Training Class</p>
                     </div>
                 </div>
+
                 <div onclick="thirdtraining()" class="left_a">
                     <div class="a_img">
                         <img src="/tabs-first-icon.png" alt="">
@@ -181,6 +166,7 @@
                         <p id="third_p" class="sec_text">Third Training Class</p>
                     </div>
                 </div>
+
                 <div onclick="fourthtraining()" class="left_a">
                     <div class="a_img">
                         <img src="/tabs-first-icon.png" alt="">
@@ -189,14 +175,16 @@
                         <p id="fourth_p" class="sec_text">Fourth Training Class</p>
                     </div>
                 </div>
+                
                 <button class="viewall_btn">View All Schedules</button>
             </div>
+
             
             <div class="right4">
                 <img id="first_img" class="train_img" src="/training-image-01.jpg" alt="">
                 <h4 id="first_h4" class="tran_txt">First Training Class</h4>
                 <p id="first_pp" class="p_phase">Lifting an appropriate amount of weight. Start with a weight you can lift comfortably 12 to 15 times, <br> instructors would be around to guide you. Learn to do each exercise correctly.</p>
-                <button class="view_btn">VIEW SCHEDULEs</button>
+                <button class="view_btn">VIEW SCHEDULES</button>
             </div>
         </div>
     </div>
@@ -204,23 +192,25 @@
 
 
     
+
     <div id="Schedules" class="FORM_SECTION choose">
         <h4 class="hh_4">CLASSES <span class="span_proo">SCHEDULE</span></h4>
         <img src="/line-dec.png" alt="">
         <p class="p_trainn">This class schedule typically includes all of the workout routines that each <br> member will be taught weekly.</p>
+        
         <ul>
-        <li class="list" id="mon" onclick="monday()"> Monday <span class="spa">/</span></li>
-        <li class="list" id="tue" onclick="tuesday()">Tuesday <span class="spa">/</span></li>
-        <li class="list" id="wed" onclick="wednesday()">Wednessday <span class="spa">/</span></li>
-        <li class="list" id="thurs" onclick="thursday()">Thursday <span class="spa">/</span></li>
-        <li class="list" id="fri" onclick="friday()">Friday <span class="spa"> </span></li>
+            <li class="list" id="mon" onclick="monday()"> Monday <span class="spa">/</span></li>
+            <li class="list" id="tue" onclick="tuesday()">Tuesday <span class="spa">/</span></li>
+            <li class="list" id="wed" onclick="wednesday()">Wednessday <span class="spa">/</span></li>
+            <li class="list" id="thurs" onclick="thursday()">Thursday <span class="spa">/</span></li>
+            <li class="list" id="fri" onclick="friday()">Friday <span class="spa"> </span></li>
         </ul>
 
 
     <table>
         <tr>
             <td>Fitness Class</td>
-            <td id="fit1">10:00AM - 11:30AM</td>+
+            <td id="fit1">10:00AM - 11:30AM</td>
             <td id="fit2"></td>
             <td>William G. Stewart</td>
         </tr>
@@ -252,6 +242,7 @@
 </div>
 
 
+
 <div class="choose">
 <h4 class="choice">EXPERT <span class="span_pro">TRAINERS</span></h4>
 <img src="/line-dec.png" alt="">
@@ -266,12 +257,13 @@
         <p class="p_t_text">Delivers high-energy trainings using <br>the latest techniques in exercise <br> science, cardio programs and <br>strength training.</p>
      
         <div class="sm_icons">
-         <i class="fa-brands fa-facebook-f"></i> 
+         <i class="bi bi-facebook"></i>
          <i class="fa-brands fa-twitter"></i>
          <i class="fa-brands fa-linkedin-in"></i>
          <i class="fa-brands fa-behance"></i>
         </div>   
     </div>
+
     <div class="bret">
         <img class="ttt" src="/second-trainer.jpg" alt="">
         <p class="p_strent">Muscle Trainer</p>
@@ -285,6 +277,7 @@
             <i class="fa-brands fa-behance"></i>
         </div>
     </div>
+
     <div class="bret">
         <img class="ttt" src="/third-trainer.jpg" alt="">
         <p class="p_strent">Power Trainer</p>
@@ -300,15 +293,19 @@
     </div>
 </div>
 
+
+
+
     <div id="contact" class="last_section">
         <div class="mapp">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126614.56007354546!2d3.9050605000000127!3d7.3869174499999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d77eeff086f%3A0x3b33e0f76e8e04a9!2sIbadan%2C%20Oyo!5e0!3m2!1sen!2sng!4v1779110231701!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126614.56007354546!2d3.9050605000000127!3d7.3869174499999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398d77eeff086f%3A0x3b33e0f76e8e04a9!2sIbadan%2C%20Oyo!5e0!3m2!1sen!2sng!4v1779110231701!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+
         <div class="fform">
             <form action="">
                 <div class="top_input">
-                    <input type="text" placeholder="Your Name*"> 
-                    <input type="text" placeholder="Your Email*">
+                    <input type="text" placeholder="Your Name*" required> 
+                    <input type="text" placeholder="Your Email*" required>
                 </div>
                 <input type="text" placeholder="Subject"> <br>
                 <input class="msg_in" type="text" placeholder="Message"> <br>
@@ -322,6 +319,6 @@
     </footer>
 
 
-    <script src="/training_studio.js"></script>
+    <script src="training_studio.js"></script>
 </body>
 </html>
